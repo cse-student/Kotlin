@@ -46,10 +46,22 @@ fun main(args: Array<String>){
     printRound(z)
     printRound(t)
     printRound(PI)
+    //endregion/
+
+    //region Square root
+    printSquareRoot(x.toDouble())
+    printSquareRoot(y.toDouble())
+    printSquareRoot(s.toDouble())
+    printSquareRoot(z)
+    printSquareRoot(t)
+    printSquareRoot(PI)
     //endregion
 
-    println("The square root of x is ${sqrt(x.toDouble())}")
-
+    //region truncate
+    printTruncatedValue(z)
+    printTruncatedValue(t)
+    printTruncatedValue(PI)
+    //endregion
 }
 
 fun print(name: String, x: Int){
@@ -87,3 +99,13 @@ fun printRound(x: Double){
     //The round function returns the closest integer(number with 0 decimal value) to the parameter
     println("The rounded value of $x is ${round(x)}")
 }
+
+fun printSquareRoot(x: Double){
+    //The sqrt function returns the square root of the parameter
+    println("The square root value of $x is ${sqrt(x)}")
+}
+
+fun printTruncatedValue(x: Double){
+    println("The truncated value of $x is ${truncate(x)}")
+}
+
