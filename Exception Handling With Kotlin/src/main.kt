@@ -8,6 +8,8 @@ fun main(args: Array<String>){
     specificExceptionHandling()
     println("Third")
     exceptionHandlingWithFinally()
+    println("Custom Exceptions")
+    throwingCustomExceptions()
 }
 
 fun genericExceptionHandling(){
@@ -63,3 +65,16 @@ fun exceptionHandlingWithFinally(){
         println("result = $result")
     }
 }
+
+fun throwingCustomExceptions(){
+    try {
+        println("Enter a number")
+        var input = readLine()
+        var x = input!!.toInt()
+    }
+    catch (Exception: Exception){
+        throw CustomException("Custom Exception has been thrown")
+    }
+}
+
+class CustomException(message: String): Exception(message)

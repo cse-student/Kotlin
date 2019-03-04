@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a19c415-d073-42a4-a479-c139c5e4a0dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
