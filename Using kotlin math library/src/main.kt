@@ -1,11 +1,12 @@
+import Constants.Companion.s
+import Constants.Companion.t
+import Constants.Companion.x
+import Constants.Companion.y
+import Constants.Companion.z
 import kotlin.math.*
 
 fun main(args: Array<String>){
-    val x = 25
-    val y = 5
-    val z = -2.5
-    val s = 3
-    val t = 7.5
+
 
     print("x", x)
     print("y", y)

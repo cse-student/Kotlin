@@ -1,12 +1,16 @@
+import Constants.Companion.x
+import Constants.Companion.y
+import Constants.Companion.z
+
 //Simple functions usage
 fun main(args: Array<String>){
-    //These values below have been declared using the keyword val therefore they cannot be modified
-    val x = 5
-    val y = 10
 
     //Simple function call
     val addition = add(x, y)
     print(x, y, addition, '+')
+
+    var multipleAddition = add(x, y, z)
+    println("The result of the addition of the 3 values is $multipleAddition")
 
     var subtraction = subtract(x, y)
     print(x, y, subtraction, '-')
@@ -26,6 +30,14 @@ fun main(args: Array<String>){
 
 fun add(x: Int, y: Int): Int{
     return x + y
+}
+
+fun add(vararg numbers: Int): Int{
+    var result = 0
+    for(number in numbers){
+        result += number
+    }
+    return result
 }
 
 fun subtract(x: Int, y: Int): Int{

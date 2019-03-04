@@ -57,5 +57,13 @@ fun main(args: Array<String>){
         i++
     }while(i < lst.count())
     i = 0
+
+    println(lineSeparator)
+
+    println("iterator")
+    val iterator = lst.iterator()
+    for(item in iterator){
+        println(item)
+    }
     //endregion
 }

@@ -25,6 +25,8 @@ fun main(args: Array<String>){
     //endregion
 
     println(isPalindrome("radar"))
+
+    println(usingStringBuilder())
 }
 
 fun print(word: String){
@@ -51,3 +53,9 @@ fun isPalindrome(word: String): Boolean{
     return true
 }
 
+fun usingStringBuilder(): String{
+    val builder = StringBuilder("Lorem ipsum dolor sit amet, \n")
+        .append("onsectetur adipiscing elit,\n")
+        .append("sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+    return builder.toString()
+}
