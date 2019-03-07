@@ -1,3 +1,5 @@
+import java.lang.NullPointerException
+
 var number: Int? = null
 var number2: Int? = null
 var number3: Int? = null
@@ -71,10 +73,17 @@ fun throwingCustomExceptions(){
         println("Enter a number")
         var input = readLine()
         var x = input!!.toInt()
+        var y: Int? = null
+        var z = y!! + x
     }
-    catch (Exception: Exception){
-        throw CustomException("Custom Exception has been thrown")
+    catch (Exception: NumberFormatException){
+        throw CustomNumberFormatException("Custom Number FormatException has been thrown")
+    }
+    catch(Exception: KotlinNullPointerException){
+        throw CustomNullPointerException("Custom Null Pointer Exception has been thrown")
     }
 }
 
-class CustomException(message: String): Exception(message)
+class CustomNumberFormatException(message: String): NumberFormatException(message)
+
+class CustomNullPointerException(message: String): KotlinNullPointerException(message)

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a19c415-d073-42a4-a479-c139c5e4a0dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/CustomException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,7 +64,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1874" />
     <option name="height" value="1000" />
   </component>
@@ -188,15 +189,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551553459598</updated>
-      <workItem from="1551553465253" duration="23109000" />
+      <workItem from="1551553465253" duration="25076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23109000" />
+    <option name="totallyTimeSpent" value="25076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <frame x="-7" y="-7" width="1488" height="803" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -205,10 +206,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5006784" side_tool="true" visible="true" weight="0.2813411" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5006784" side_tool="true" visible="true" weight="0.39941692" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932158" visible="true" weight="0.2813411" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932158" weight="0.2813411" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -219,7 +220,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997093" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932158" visible="true" weight="0.39941692" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -242,10 +243,10 @@
           <url>file://$PROJECT_DIR$/src/main.kt</url>
           <line>56</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -258,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
