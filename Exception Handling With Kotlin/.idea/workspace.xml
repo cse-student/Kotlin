@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55c3cfd-9b58-48a5-889d-f77ea39c58b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/Using Kotlin data class.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../String manipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../String manipulation/.idea/workspace.xml" afterDir="false" />
@@ -22,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -176,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551726388671</updated>
-      <workItem from="1551726393403" duration="8370000" />
+      <workItem from="1551726393403" duration="9582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8370000" />
+    <option name="totallyTimeSpent" value="9582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -243,7 +250,7 @@
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
         </state>
       </provider>
     </entry>

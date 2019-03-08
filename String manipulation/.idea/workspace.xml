@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a19c415-d073-42a4-a479-c139c5e4a0dd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Kotlin data class/Using Kotlin data class.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -22,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -260,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
