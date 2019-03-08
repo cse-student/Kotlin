@@ -53,23 +53,23 @@ fun invalidOperation(){
 
 fun calculatorWithIfElse(x: Int, y: Int, operation: String){
     var result = 0
-    if(operation == "+"){
+    if(operation == Operators.Add.operator){
         result = x + y
     }
-    else if(operation == "-"){
+    else if(operation == Operators.SUBTRACT.operator){
         result = x - y
     }
-    else if(operation == "*"){
+    else if(operation == Operators.MULTIPLY.operator){
         result = x * y
     }
-    else if(operation == "/"){
+    else if(operation == Operators.DIVIDE.operator){
         result = x / y
     }
-    else if(operation == "ln"){
+    else if(operation == Operators.LN.operator){
         notYetSupported()
         return
     }
-    else if(operation == "log"){
+    else if(operation == Operators.LOG.operator){
         notYetSupported()
         return
     }
@@ -83,11 +83,11 @@ fun calculatorWithIfElse(x: Int, y: Int, operation: String){
 fun calculatorWithWhen(x: Int, y: Int, operation: String){
     var result = 0
     result = when(operation){
-        "+" -> x + y
-        "-" -> x - y
-        "*" -> x * y
-        "/" -> x / y
-        "ln", "log" -> {
+        Operators.Add.operator -> x + y
+        Operators.SUBTRACT.operator -> x - y
+        Operators.MULTIPLY.operator -> x * y
+        Operators.DIVIDE.operator -> x / y
+        Operators.LN.operator, Operators.LOG.operator -> {
             notYetSupported()
             return
         }

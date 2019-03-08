@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a19c415-d073-42a4-a479-c139c5e4a0dd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/out/production/Exception Handling With Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -189,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551553459598</updated>
-      <workItem from="1551553465253" duration="25076000" />
+      <workItem from="1551553465253" duration="25282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25076000" />
+    <option name="totallyTimeSpent" value="25282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="7" />
