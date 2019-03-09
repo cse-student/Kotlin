@@ -1,3 +1,4 @@
+import Operators.*
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>){
@@ -53,23 +54,23 @@ fun invalidOperation(){
 
 fun calculatorWithIfElse(x: Int, y: Int, operation: String){
     var result = 0
-    if(operation == Operators.Add.operator){
+    if(operation == Add.operator){
         result = x + y
     }
-    else if(operation == Operators.SUBTRACT.operator){
+    else if(operation == SUBTRACT.operator){
         result = x - y
     }
-    else if(operation == Operators.MULTIPLY.operator){
+    else if(operation == MULTIPLY.operator){
         result = x * y
     }
-    else if(operation == Operators.DIVIDE.operator){
+    else if(operation == DIVIDE.operator){
         result = x / y
     }
-    else if(operation == Operators.LN.operator){
+    else if(operation == LN.operator){
         notYetSupported()
         return
     }
-    else if(operation == Operators.LOG.operator){
+    else if(operation == LOG.operator){
         notYetSupported()
         return
     }
@@ -83,11 +84,11 @@ fun calculatorWithIfElse(x: Int, y: Int, operation: String){
 fun calculatorWithWhen(x: Int, y: Int, operation: String){
     var result = 0
     result = when(operation){
-        Operators.Add.operator -> x + y
-        Operators.SUBTRACT.operator -> x - y
-        Operators.MULTIPLY.operator -> x * y
-        Operators.DIVIDE.operator -> x / y
-        Operators.LN.operator, Operators.LOG.operator -> {
+        Add.operator -> x + y
+        SUBTRACT.operator -> x - y
+        MULTIPLY.operator -> x * y
+        DIVIDE.operator -> x / y
+        LN.operator, LOG.operator -> {
             notYetSupported()
             return
         }
