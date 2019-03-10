@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a19c415-d073-42a4-a479-c139c5e4a0dd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements with Kotlin/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exception Handling With Kotlin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Introduction to functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/Algorithms and Data Structure With Kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/src/com/kotlin/datastructure/builtin/ArrayManipulations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure And Algorithms With Kotlin/src/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Using Kotlin data class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Kotlin data class/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using Kotlin data class/src/Laptop.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using Kotlin data class/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Kotlin data class/src/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,6 +73,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="-24" />
     <option name="width" value="1875" />
     <option name="height" value="1000" />
   </component>
@@ -246,7 +252,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main.kt</url>
+          <url />
           <line>56</line>
           <properties />
           <option name="timeStamp" value="8" />
