@@ -15,14 +15,28 @@ fun main() {
     var rpMax = 145.0
     rpMax = rpMaxCalculator(rpMax, 0, false)
     var deadlift = Workout("Deadlift", month, rpMax)
-    workouts.add(deadlift)
+    //workouts.add(deadlift)
     //endregion
 
     //region Standing Shoulder Press
     rpMax = 51.2
     rpMax = rpMaxCalculator(rpMax, 0, true)
     var standingShoulderPress = Workout("Standing Shoulder Press", month, rpMax)
-    workouts.add(standingShoulderPress)
+    //workouts.add(standingShoulderPress)
+    //endregion
+
+    //region Bench Press
+    rpMax = 112.5
+    rpMax = rpMaxCalculator(rpMax, 0, true)
+    var benchPress = Workout("Bench Press", month, rpMax)
+    //workouts.add(benchPress)
+    //endregion
+
+    //region Squat
+    rpMax = 105.9
+    rpMax = rpMaxCalculator(rpMax, 0, true)
+    var squat = Workout("Squat", month, rpMax)
+    workouts.add(squat)
     //endregion
 
     for (workout in workouts) {
