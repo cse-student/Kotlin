@@ -16,32 +16,12 @@ fun main() {
     println(sub)
     println(sub.multiply(2))
     //endregion
-}
 
-open class SuperClass(x: Int){
-    protected  val x =  x
+    //region Interfaces
+    var dog: Animal = Dog()
+    var cat: Animal = Cat()
 
-    //overriding toString function
-    override fun toString(): String {
-        return "${this::class.simpleName} x = $x"
-    }
-    //endregion
-
-    open fun multiply(factor: Int): Int{
-        return x * factor
-    }
-}
-
-//region extending SuperClass
-class SubClass(x: Int): SuperClass(x){
-    override fun toString(): String {
-        return "${this::class.simpleName} x = $x"
-    }
-
-    //region overriding function declared in superclass while using its functionality
-    override fun multiply(factor: Int): Int {
-        return super.multiply(factor) * factor
-    }
+    dog.speak()
+    cat.speak()
     //endregion
 }
-//endregion
