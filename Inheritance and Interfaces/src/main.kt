@@ -1,3 +1,9 @@
+import interfaces.Animal
+import classes.Cat
+import classes.GoldenRetriever
+import classes.WolfDog
+import interfaces.Dog
+
 fun main() {
 
     //region Inheriting Any class
@@ -18,16 +24,19 @@ fun main() {
     //endregion
 
     //region Interfaces
-    var dog: Animal = Dog()
+    var dog: Animal = GoldenRetriever()
     var cat: Animal = Cat()
-    dog.speak()
-    cat.speak()
-
-    makeItSpeak(dog)
-    makeItSpeak(cat)
+    var wolfDog = WolfDog()
 
     printType(dog)
+    makeItSpeak(dog)
+
     printType(cat)
+    makeItSpeak(cat)
+
+    printType(wolfDog)
+    makeItSpeak(wolfDog)
+
     //endregion
 }
 
