@@ -20,8 +20,14 @@ fun main() {
     //region Interfaces
     var dog: Animal = Dog()
     var cat: Animal = Cat()
-
     dog.speak()
     cat.speak()
+
+    makeItSpeak(dog)
+    makeItSpeak(cat)
     //endregion
+}
+
+fun makeItSpeak(animal: Animal){
+    animal.speak()
 }
