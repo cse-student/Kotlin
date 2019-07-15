@@ -25,9 +25,17 @@ fun main() {
 
     makeItSpeak(dog)
     makeItSpeak(cat)
+
+    printType(dog)
+    printType(cat)
     //endregion
 }
 
 fun makeItSpeak(animal: Animal){
     animal.speak()
 }
+
+fun printType(animal: Animal){
+    println("Animal is a ${animal::class.simpleName}")
+}
+
