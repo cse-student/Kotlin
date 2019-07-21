@@ -41,7 +41,7 @@ fun main() {
     //region Anonymous object
     makeItSpeak(object: Animal{
         override fun speak() {
-            print("Roar")
+            print("Roar\n")
         }
     })
     //endregion
@@ -50,13 +50,33 @@ fun main() {
     makeItSpeak(horse)
     //endregion
 
+    //region Using sealed class
+    var laptop = Laptop(3000.00, "i7-9700T", 32)
+    println("Laptop: $laptop")
+
+    var tablet = Laptop(750.00, "Cortex– A15 ", 8)
+    println("Tablet: $tablet")
+
+
+    val mostExpensive: ElectronicDevice = if (laptop.price > tablet.price) laptop else tablet
+    val printMostExpensive = when(mostExpensive){
+        is Laptop -> {
+            println("The laptop is the most expensive")
+        }
+        is Tablet -> {
+            print("The tablet is the most expensive")
+        }
+    }
+    printMostExpensive
+    //endregion
+    
     //endregion
 }
 
 
 val horse = object:Animal{
     override fun speak() {
-        print("Neigh")
+        print("Neigh\n")
     }
 
 }

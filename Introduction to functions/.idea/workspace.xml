@@ -15,7 +15,7 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="307">
               <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
                 <element signature="e#0#86#0" expanded="true" />
@@ -193,12 +193,12 @@
       <workItem from="1551216165605" duration="2635000" />
       <workItem from="1551716198269" duration="229000" />
       <workItem from="1551716963289" duration="1505000" />
-      <workItem from="1563724804752" duration="1160000" />
+      <workItem from="1563724804752" duration="1714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11250000" />
+    <option name="totallyTimeSpent" value="11804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -316,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="307">
           <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="e#0#86#0" expanded="true" />
