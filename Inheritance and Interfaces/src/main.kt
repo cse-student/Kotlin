@@ -37,14 +37,25 @@ fun main() {
     printType(wolfDog)
     makeItSpeak(wolfDog)
 
+
+    //region Anonymous object
+    makeItSpeak(object: Animal{
+        override fun speak() {
+            print("Roar")
+        }
+    })
     //endregion
+
+    //endregion
+}
+
+
+
+fun printType(animal: Animal){
+    println("Animal is a ${animal::class.simpleName}")
 }
 
 fun makeItSpeak(animal: Animal){
     animal.speak()
-}
-
-fun printType(animal: Animal){
-    println("Animal is a ${animal::class.simpleName}")
 }
 
