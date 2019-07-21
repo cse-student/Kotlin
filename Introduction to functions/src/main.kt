@@ -5,6 +5,8 @@ import Constants.Companion.z
 //Simple functions usage
 fun main(args: Array<String>){
 
+    welcome()
+    welcome.invoke()
     //Simple function call
     val addition = add(x, y)
     print(x, y, addition, '+')
@@ -52,6 +54,10 @@ fun divide(x: Int, y: Int): Double{
     return x.toDouble()/y.toDouble()
 }
 
+val welcome = {
+    println("Welcome")
+}
+
 fun print(x: Int, y: Int, result:Int, operator: Char){
     println("$x $operator $y = $result")
     println("\t The type of the result is ${result::class.qualifiedName} \n")
@@ -61,3 +67,4 @@ fun print(x: Int, y: Int, result:Double, operator: Char){
     println("$x $operator $y = $result")
     println("\t The type of the result is ${result::class.qualifiedName} \n")
 }
+
