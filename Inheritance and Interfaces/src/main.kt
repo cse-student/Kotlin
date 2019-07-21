@@ -46,11 +46,20 @@ fun main() {
     })
     //endregion
 
+    //region using lamda expression
+    makeItSpeak(horse)
+    //endregion
+
     //endregion
 }
 
 
+val horse = object:Animal{
+    override fun speak() {
+        print("Neigh")
+    }
 
+}
 fun printType(animal: Animal){
     println("Animal is a ${animal::class.simpleName}")
 }
